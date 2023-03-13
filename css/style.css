@@ -65,11 +65,17 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     flex-grow: 1;
 }
 
 h1{
     font-size: 8vw;
+    color: #fff;
+}
+
+.header__content p{
+    font-size: 3vw;
     color: #fff;
 }
 
